@@ -19,7 +19,7 @@ const cardBackText_3 = `Contributed to the full SDLC, developing microservices w
                         Developed RESTful APIs and implemented caching strategies to improve response times and resource utilization.
                         Consistently wrote JUnit tests to validate the functionality and integrity of the code and followed TDD approch.`;
 
-const technologies_1 = ['Java', 'SpringBoot', 'AWS', 'Angular', 'Junit', 'Oracle | SQL', 'Kafka'];
+const technologies_1 = ['Java', 'SpringBoot', 'AWS', 'Angular', 'Junit | Mockito', 'Oracle | SQL', 'Kafka', 'GIT | JENKINS'];
 const technologies_2 = ['Java/J2EE', 'SpringBoot', 'Angular | React', 'CSS3 | Sass', 'Hibernate', 'SQL | PLSQL'];
 const technologies_3 = ['Java', 'Angular', 'Docker', 'Junit', 'Sonarqube', 'SQL', 'AWS'];
 
