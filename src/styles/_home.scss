@@ -1,0 +1,281 @@
+.heroImage {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/bg1.jpg");
+  height: 700px;
+  background-position: $center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: $relative;
+  clip-path: polygon(0 0, 100% 0, 100% 84vh, 0 100%);
+    .welcome {
+     height:460px;
+     color: $white;
+    }
+
+    .hello {
+      animation: left 1s ease-out;
+      -webkit-animation: left 1s ease-out;
+      -moz-animation: left 1s ease-out;
+    }
+
+    @keyframes left {
+        0% {
+            opacity:0;
+            transform: translatex(-10rem);
+        }
+        80% {
+            transform: translatex(10rem);
+        }
+        100% {
+            transform: translatex(0rem);
+        }
+    }
+
+    .developer {
+      animation: right 1s ease-out;
+      -webkit-animation: right 1s ease-out;
+      -moz-animation: right 1s ease-out;
+    }
+
+    .text-color {
+       color: #ffc107;
+    }
+
+    @keyframes right {
+        0% {
+            opacity:0;
+            transform: translatex(10rem);
+        }
+        80% {
+            transform: translatex(-1rem);
+        }
+        100% {
+            transform: translatex(0rem);
+        }
+    }
+
+    .contactButton {
+        animation: bottom 500ms ease-out 750ms;
+        animation-fill-mode: backwards;
+    }
+
+    .contactButton:hover {
+        transform: scale(1.12);
+    }
+
+    @keyframes bottom {
+        0% {
+            opacity:0;
+            transform: translatey(3rem);
+        }
+        100% {
+            transform: translatey(0rem);
+        }
+    }
+}
+
+.logo {
+    color: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+.abstractLogo:hover {
+    transform: scale(1.12);
+}
+
+.heroImage2 {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/bg2.jpg");
+  background-size: cover;
+  transform: skewY(-7deg);
+  & > * {
+    transform: skewY(7deg);
+  }
+
+}
+
+.cardWrapper {
+   margin-right: $size-md !important;
+   margin-left: $size-md !important;
+   padding: 150px 0 150px 0;
+   .cards {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2.5rem;
+      text-align: $center;
+      border-radius: .3rem;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+      transition: transform 300ms;
+      &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+        box-shadow: 0 1.5rem 2rem rgba(255, 223, 0, 1);
+      }
+   }
+}
+
+@media screen and (min-width: 415px) {
+    .heroImage2 {
+      margin-bottom: 7rem;
+    }
+
+    .welcome {
+       height: 620px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+     .heroImage {
+          height: 1000px;
+          clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+     }
+}
+
+@media screen and (min-width: 1200px) {
+    .heroImage {
+      height: 1000px;
+      clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .heroImage {
+      height: 1000px;
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    }
+}
+
+.project {
+    height: 42rem;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: $relative;
+
+    .cardSide {
+        height: 40rem;
+        transition: all 800ms ease;
+        position: $absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: $hidden;
+        border-radius: .3rem;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+        overflow: $hidden;
+    }
+    .cardFront {
+        background-color: $white;
+    }
+
+    .cardBack {
+        transform: rotateY(180deg);
+    }
+
+    .cardBackFill_1 {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+    }
+
+    .cardBackFill_2 {
+        background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+    }
+
+    .cardBackFill_3 {
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    }
+
+    .cardCTA {
+        position: $absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: $center;
+    }
+    .cardBackText {
+        color: $white;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    &:hover .cardFront {
+         transform: rotateY(-180deg);
+    }
+    &:hover .cardBack {
+         transform: rotateY(0);
+    }
+    .cardPicture {
+        height: 19rem;
+        background-size: cover;
+        background-blend-mode: screen;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+    .cardFrontImage1 {
+        background: linear-gradient(to right bottom, rgb(241, 39, 17), rgb(245, 175, 25)), url("../Images/bg3.jpg");
+    }
+
+    .cardFrontImage2 {
+        background: linear-gradient(to right bottom, rgb(55, 59, 68), rgb(66, 134, 244)), url("../Images/bg3.jpg");
+    }
+
+    .cardFrontImage3 {
+        background: linear-gradient(to right bottom, rgb(20, 21, 23), rgb(106, 145, 19)),  url("../Images/bg3.jpg");
+    }
+
+    .cardHeading {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: $white;
+        position: $absolute;
+        top: 12rem;
+        right: 1.9rem;
+        width: 75%;
+        z-index: 1;
+        line-height: 3.5rem;
+    }
+
+    .cardDetails {
+        padding: 3rem 0.5rem 3rem 0.5rem;
+    }
+
+    .cardHeading_span {
+        padding: 1rem 1.5rem;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+
+    .cardHeading_span_1 {
+        background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+    }
+
+    .cardDetails ul{
+        list-style: none;
+        width: 80%;
+    }
+
+    .cardDetails ul li {
+        text-align: $center;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+
+    .cardDetails ul li:not(:last-child) {
+        border-bottom: 1px solid #eee;
+    }
+}
+
+@media (min-width: 361px)  {
+
+    .cardHeading {
+            font-size: 2rem;
+    }
+
+    .cardDetails {
+        padding: 3rem;
+    }
+
+    .cardDetails ul li {
+        font-size: 1.4rem;
+    }
+}
+
+.socialIcons:hover {
+    transform: translateY(-0.2rem) scale(1.03);
+}
