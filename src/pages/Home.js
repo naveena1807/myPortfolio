@@ -2,7 +2,7 @@ import React from 'react';
 import HeroContainer from '../containers/HeroContainer';
 import JSAbstractContainer from '../containers/JSAbstractContainer';
 import ProjectsContainer from '../containers/ProjectsContainer';
-import ProjectPortfolioContainer from '../containers/ProjectPortfolioContainer';
+import TechnicalSkillsContainer from '../containers/TechnicalSkillsContainer';
 import ContactDetailsContainer from '../containers/ContactDetailsContainer';
 
 class Home extends React.Component {
@@ -12,7 +12,7 @@ class Home extends React.Component {
         <HeroContainer />
         <JSAbstractContainer />
         <ProjectsContainer />
-        <ProjectPortfolioContainer />
+        <TechnicalSkillsContainer />
         <ContactDetailsContainer />
       </div>
     );

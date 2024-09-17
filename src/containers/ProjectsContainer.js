@@ -49,6 +49,6 @@ const ProjectsContainer = React.memo(() => {
     );
 });
 
-ProjectsContainer.displayName = "ProjectsContainer";
+ProjectsContainer.displayName = 'ProjectsContainer';
 
 export default ProjectsContainer;

@@ -7,7 +7,7 @@ import logo from '../Images/nsymbol.png';
 const HeroContainer = React.memo(() => {
 
     const handleContact = () => {
-        window.location.href = "#contact";
+        window.location.href = '#contact';
     };
 
     return (
@@ -28,6 +28,6 @@ const HeroContainer = React.memo(() => {
     );
 });
 
-HeroContainer.displayName = "HeroContainer";
+HeroContainer.displayName = 'HeroContainer';
 
 export default HeroContainer;

@@ -16,8 +16,9 @@ const JSAbstractContainer = React.memo(() => {
     return (
         <Container>
             <Row className="flex-center flex-column margin-vertical-sm margin-horizontal-sm">
-                <SubHeading heading="FULL STACK FOCUSED" className="text-size-md text-center" />
-                <SubHeading heading="WITH DIFFERENT FRONT END, BACK END FRAMEWORKS EXPERIENCE" className="text-size-md text-center" />
+                <SubHeading heading="FULL STACK DDEVELOPMENT" className="text-size-md text-center" />
+                <SubHeading heading="UTILIZING VARIOUS FRAMEWORKS AND TOOLS" className="text-size-md text-center" />
+                <SubHeading heading=" " className="text-size-md text-center" />
             </Row>
             <Row className="padding-horizontal-sm text-left">
                 <Col xs={12} md={6}>
@@ -50,6 +51,6 @@ const JSAbstractContainer = React.memo(() => {
     );
 });
 
-JSAbstractContainer.displayName = "JSAbstractContainer";
+JSAbstractContainer.displayName = 'JSAbstractContainer';
 
 export default JSAbstractContainer;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import linkedin from '../Images/linkedin.png';
+import github from '../Images/github.png';
 
 const ContactDetailsContainer = React.memo(() => {
 
@@ -10,6 +11,11 @@ const ContactDetailsContainer = React.memo(() => {
             logo: linkedin,
             alt: 'Linkedin logo',
             url: 'https://www.linkedin.com/in/naveenas205/'
+        },
+        {
+            logo: github,
+            alt: 'Github logo',
+            url: 'https://github.com/naveena1807/myPortfolio'
         }
     ];
 
@@ -46,8 +52,10 @@ const ContactDetailsContainer = React.memo(() => {
                             About Me:
                         </strong>
                         <div className="margin-vertical-md">
-                            Accomplished Java Full Stack Developer with 5+ years of experience in designing, developing, and deploying enterprise-level applications.
-                            Adept in both front-end and back-end development, utilizing a comprehensive range of technologies including J2EE, spring, Hibernate, AWS, Angular, Python, Kafka, and Docker.
+                            Experienced Java Full Stack Developer with a proven track record of designing, implementing, and maintaining robust, scalable, and high-performance web applications.
+                            Demonstrated expertise in Java, Spring Boot, Angular, and other relevant frameworks, coupled with a solid understanding of database management, RESTful API integration and cloud technologies like AWS.
+                            Skilled in analyzing user requirements, designing system architectures, and ensuring seamless end-to-end functionality.
+                            Proven ability to thrive in fast-paced, dynamic environments while maintaining a focus on delivering high-quality software solutions.
                         </div>
                     </Col>
                     <Col xs={12} md={6} className="margin-vertical-md ">
