@@ -9,7 +9,7 @@ const imageClass = ['cardFrontImage1', 'cardFrontImage2', 'cardFrontImage3'];
 
 const cardBackFill = ['cardBackFill_1', 'cardBackFill_2', 'cardBackFill_3'];
 
-const cardBackText_1 = `Skilled in both front-end and back-end development, with extensive experience using technologies such as Java/J2EE, SpringBoot, Hibernate, Angular, SQL etc. 
+const cardBackText_1 = `Skilled in Full Stack development, with extensive experience using technologies such as Java/J2EE, SpringBoot, Hibernate, JavaScript, SQL etc. 
                         Strong ability to lead projects through every stage of the Software Development Lifecycle (SDLC) with Agile methodologies. 
                         My technical acumen is complemented by a solid understanding of cloud services and containerization technologies, enabling me to create comprehensive, efficient, and deployable solutions.`;
 
@@ -22,7 +22,7 @@ const cardBackText_3 = `I effectively utilize a diverse array of software tools 
                         By leveraging these tools, I ensure efficient code management, smooth project builds, and robust collaboration throughout the development lifecycle.`;
 
 const technologies_1 = ['Java/J2EE', 'SpringBoot', 'Angular | React', 'Junit | Mockito', 'Oracle | SQL | PostgreSQL', 'Hibernate', 'PHP', 'HTML | CSS | JS'];
-const technologies_2 = ['AWS', 'Docker | ECS | Kubernetes', 'SQS | SNS', 'Kafka', 'IAM | Roles', 'RDS', 'EC2', 'Lambda', 'Redis'];
+const technologies_2 = ['AWS', 'Docker | ECS ', 'SQS | SNS', 'Kafka', 'IAM | Roles', 'RDS', 'EC2', 'Lambda', 'Redis'];
 const technologies_3 = ['Postman', 'Sonarqube', 'Maven', 'Newrelic', 'ServiceNow', 'GIT', 'JENKINS', 'Rally', 'STS | VS Code | Intellij', 'MS Word | MS Excel'];
 
 const TechnicalSkillsContainer = React.memo(() => {

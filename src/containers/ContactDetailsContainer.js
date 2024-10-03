@@ -7,11 +7,11 @@ const ContactDetailsContainer = React.memo(() => {
 
     const socialIcons = [
 
-        {
-            logo: linkedin,
-            alt: 'Linkedin logo',
-            url: 'https://www.linkedin.com/in/naveenas205/'
-        },
+        /*   {
+               logo: linkedin,
+               alt: 'Linkedin logo',
+               url: 'https://www.linkedin.com'
+           },*/
         {
             logo: github,
             alt: 'Github logo',
@@ -64,12 +64,12 @@ const ContactDetailsContainer = React.memo(() => {
                         </strong>
                         <div className="diplay-flex flex-column margin-vertical-md text-underline">
                             <div>
-                                <a href="tel:+14704865038" rel="nofollow noopener noreferrer" >
-                                    +1(470)486-5038
+                                <a href="tel:+14083453768" rel="nofollow noopener noreferrer" >
+                                    +1(408) 345-3768
                                 </a>
                             </div>
                             <div>
-                                <a href="mailto:naveenas205@gmail.com" rel="nofollow noopener noreferrer">naveenas205@gmail.com</a>
+                                <a href="mailto:naveenas1807@gmail.com" rel="nofollow noopener noreferrer">naveenas1807@gmail.com</a>
                             </div>
                             {renderSocialIcons()}
                         </div>
