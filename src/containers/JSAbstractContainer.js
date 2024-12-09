@@ -8,6 +8,7 @@ import react from '../Images/react.png';
 import java from '../Images/java-logo-1.png';
 import aws from '../Images/aws.png';
 import spring from '../Images/springboot.png';
+import awscert from '../Images/awscert.png';
 
 const JSAbstractContainer = React.memo(() => {
 
@@ -39,6 +40,10 @@ const JSAbstractContainer = React.memo(() => {
                         <img className="abstractLogo" src={react} alt="react js logo" height="100" width="100" />
                         <img className="abstractLogo" src={database} alt="database logo" height="100" width="100" />
                         <img className="abstractLogo" src={aws} alt="aws logo" height="100" width="100" />
+                        <a target="_blank" href="https://www.credly.com/badges/a8346d52-3082-41a5-8830-cb6595d6b9ca/public_url" rel="noreferrer">
+                            <img className="abstractLogo" src={awscert} alt="aws certification" height="100" width="100" />
+                        </a>
+
 
                     </div>
                 </Col>

@@ -17,7 +17,7 @@ const HeroContainer = React.memo(() => {
                     <img src={logo} alt="logo" height="100" width="100" />
                 </div>
                 <Row className="welcome flex-column text-size-md flex-center flex-center-align text-center">
-                    <div className="hello">Hello, I&#x27;m <span className="text-color">Naveena Shanmugam</span></div>
+                    <div className="hello">Hello, I&#x27;m <span className="text-color">Naveena Dumpala</span></div>
                     <div className="developer">I&#x27;m a Full Stack Java Developer </div>
                     <div className="margin-vertical-sm contactButton">
                         <Button onClick={handleContact} variant="warning" size="lg">Contact me</Button>
